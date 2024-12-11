@@ -1,86 +1,102 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ahmed sameh\\source\\repos\\reusableProject\\",
+  "WorkspaceRootPath": "S:\\Coding\\Visual Studio Projects\\reusableAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|c:\\users\\ahmed sameh\\source\\repos\\reusableproject\\reusableproject\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|solutionrelative:reusableproject\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|c:\\users\\ahmed sameh\\source\\repos\\reusableproject\\reusableproject\\dtos\\cartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|solutionrelative:reusableproject\\dtos\\cartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|c:\\users\\ahmed sameh\\source\\repos\\reusableproject\\reusableproject\\dtos\\cartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|solutionrelative:reusableproject\\dtos\\cartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|c:\\users\\ahmed sameh\\source\\repos\\reusableproject\\reusableproject\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|solutionrelative:reusableproject\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|c:\\users\\ahmed sameh\\source\\repos\\reusableproject\\reusableproject\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|solutionrelative:reusableproject\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|c:\\users\\ahmed sameh\\source\\repos\\reusableproject\\reusableproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|solutionrelative:reusableproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|c:\\users\\ahmed sameh\\source\\repos\\reusableproject\\reusableproject\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|solutionrelative:reusableproject\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|c:\\users\\ahmed sameh\\source\\repos\\reusableproject\\reusableproject\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|solutionrelative:reusableproject\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|c:\\users\\ahmed sameh\\source\\repos\\reusableproject\\reusableproject\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|solutionrelative:reusableproject\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|c:\\users\\ahmed sameh\\source\\repos\\reusableproject\\reusableproject\\dtos\\paymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|solutionrelative:reusableproject\\dtos\\paymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|c:\\users\\ahmed sameh\\source\\repos\\reusableproject\\reusableproject\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|solutionrelative:reusableproject\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|c:\\users\\ahmed sameh\\source\\repos\\reusableproject\\reusableproject\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|solutionrelative:reusableproject\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|c:\\users\\ahmed sameh\\source\\repos\\reusableproject\\reusableproject\\dtos\\usersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|s:\\coding\\visual studio projects\\reusableapi\\reusableproject\\dtos\\usersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|solutionrelative:reusableproject\\dtos\\usersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|c:\\users\\ahmed sameh\\source\\repos\\reusableproject\\reusableproject\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|solutionrelative:reusableproject\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|s:\\coding\\visual studio projects\\reusableapi\\reusableproject\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|solutionrelative:reusableproject\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|c:\\users\\ahmed sameh\\source\\repos\\reusableproject\\reusableproject\\dtos\\productsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|solutionrelative:reusableproject\\dtos\\productsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|s:\\coding\\visual studio projects\\reusableapi\\reusableproject\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|solutionrelative:reusableproject\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|c:\\users\\ahmed sameh\\source\\repos\\reusableproject\\reusableproject\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|solutionrelative:reusableproject\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|s:\\coding\\visual studio projects\\reusableapi\\reusableproject\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|solutionrelative:reusableproject\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|c:\\users\\ahmed sameh\\source\\repos\\reusableproject\\reusableproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|solutionrelative:reusableproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|s:\\coding\\visual studio projects\\reusableapi\\reusableproject\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|solutionrelative:reusableproject\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|c:\\users\\ahmed sameh\\source\\repos\\reusableproject\\reusableproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|s:\\coding\\visual studio projects\\reusableapi\\reusableproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|solutionrelative:reusableproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|c:\\users\\ahmed sameh\\source\\repos\\reusableproject\\reusableproject\\reusableproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|s:\\coding\\visual studio projects\\reusableapi\\reusableproject\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|solutionrelative:reusableproject\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|s:\\coding\\visual studio projects\\reusableapi\\reusableproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|solutionrelative:reusableproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|s:\\coding\\visual studio projects\\reusableapi\\reusableproject\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|solutionrelative:reusableproject\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|s:\\coding\\visual studio projects\\reusableapi\\reusableproject\\dtos\\cartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|solutionrelative:reusableproject\\dtos\\cartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|s:\\coding\\visual studio projects\\reusableapi\\reusableproject\\dtos\\cartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|solutionrelative:reusableproject\\dtos\\cartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|s:\\coding\\visual studio projects\\reusableapi\\reusableproject\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|solutionrelative:reusableproject\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|s:\\coding\\visual studio projects\\reusableapi\\reusableproject\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|solutionrelative:reusableproject\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|s:\\coding\\visual studio projects\\reusableapi\\reusableproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|solutionrelative:reusableproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|s:\\coding\\visual studio projects\\reusableapi\\reusableproject\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|solutionrelative:reusableproject\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|s:\\coding\\visual studio projects\\reusableapi\\reusableproject\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|solutionrelative:reusableproject\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|s:\\coding\\visual studio projects\\reusableapi\\reusableproject\\dtos\\paymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|solutionrelative:reusableproject\\dtos\\paymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|s:\\coding\\visual studio projects\\reusableapi\\reusableproject\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|solutionrelative:reusableproject\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|s:\\coding\\visual studio projects\\reusableapi\\reusableproject\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|solutionrelative:reusableproject\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|s:\\coding\\visual studio projects\\reusableapi\\reusableproject\\dtos\\productsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|solutionrelative:reusableproject\\dtos\\productsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|s:\\coding\\visual studio projects\\reusableapi\\reusableproject\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|solutionrelative:reusableproject\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|s:\\coding\\visual studio projects\\reusableapi\\reusableproject\\reusableproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|solutionrelative:reusableproject\\reusableproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|c:\\users\\ahmed sameh\\source\\repos\\reusableproject\\reusableproject\\migrations\\20241211110735_lol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|s:\\coding\\visual studio projects\\reusableapi\\reusableproject\\migrations\\20241211110735_lol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|solutionrelative:reusableproject\\migrations\\20241211110735_lol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|s:\\coding\\visual studio projects\\reusableapi\\reusableproject\\migrations\\20241211145422_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9485C9F2-DAC2-4CB7-8D75-4EFEC4120916}|reusableProject\\reusableProject.csproj|solutionrelative:reusableproject\\migrations\\20241211145422_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -90,7 +106,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -106,76 +122,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Cart.cs",
-              "DocumentMoniker": "C:\\Users\\ahmed sameh\\source\\repos\\reusableProject\\reusableProject\\Models\\Cart.cs",
-              "RelativeDocumentMoniker": "reusableProject\\Models\\Cart.cs",
-              "ToolTip": "C:\\Users\\ahmed sameh\\source\\repos\\reusableProject\\reusableProject\\Models\\Cart.cs",
-              "RelativeToolTip": "reusableProject\\Models\\Cart.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T14:06:57.136Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "C:\\Users\\ahmed sameh\\source\\repos\\reusableProject\\reusableProject\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "reusableProject\\Controllers\\OrderController.cs",
-              "ToolTip": "C:\\Users\\ahmed sameh\\source\\repos\\reusableProject\\reusableProject\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "reusableProject\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAA3wDQAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T14:03:07.678Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CartItemDto.cs",
-              "DocumentMoniker": "C:\\Users\\ahmed sameh\\source\\repos\\reusableProject\\reusableProject\\Dtos\\CartItemDto.cs",
-              "RelativeDocumentMoniker": "reusableProject\\Dtos\\CartItemDto.cs",
-              "ToolTip": "C:\\Users\\ahmed sameh\\source\\repos\\reusableProject\\reusableProject\\Dtos\\CartItemDto.cs",
-              "RelativeToolTip": "reusableProject\\Dtos\\CartItemDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T13:56:08.454Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "CartDto.cs",
-              "DocumentMoniker": "C:\\Users\\ahmed sameh\\source\\repos\\reusableProject\\reusableProject\\Dtos\\CartDto.cs",
+              "DocumentMoniker": "S:\\Coding\\Visual Studio Projects\\reusableAPI\\reusableProject\\Dtos\\CartDto.cs",
               "RelativeDocumentMoniker": "reusableProject\\Dtos\\CartDto.cs",
-              "ToolTip": "C:\\Users\\ahmed sameh\\source\\repos\\reusableProject\\reusableProject\\Dtos\\CartDto.cs",
+              "ToolTip": "S:\\Coding\\Visual Studio Projects\\reusableAPI\\reusableProject\\Dtos\\CartDto.cs",
               "RelativeToolTip": "reusableProject\\Dtos\\CartDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T13:55:16.081Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T13:55:16.081Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "CartController.cs",
-              "DocumentMoniker": "C:\\Users\\ahmed sameh\\source\\repos\\reusableProject\\reusableProject\\Controllers\\CartController.cs",
+              "DocumentMoniker": "S:\\Coding\\Visual Studio Projects\\reusableAPI\\reusableProject\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "reusableProject\\Controllers\\CartController.cs",
-              "ToolTip": "C:\\Users\\ahmed sameh\\source\\repos\\reusableProject\\reusableProject\\Controllers\\CartController.cs",
+              "ToolTip": "S:\\Coding\\Visual Studio Projects\\reusableAPI\\reusableProject\\Controllers\\CartController.cs",
               "RelativeToolTip": "reusableProject\\Controllers\\CartController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAIgAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T12:46:42.977Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T12:46:42.977Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "ProductsDto.cs",
-              "DocumentMoniker": "C:\\Users\\ahmed sameh\\source\\repos\\reusableProject\\reusableProject\\Dtos\\ProductsDto.cs",
+              "DocumentMoniker": "S:\\Coding\\Visual Studio Projects\\reusableAPI\\reusableProject\\Dtos\\ProductsDto.cs",
               "RelativeDocumentMoniker": "reusableProject\\Dtos\\ProductsDto.cs",
-              "ToolTip": "C:\\Users\\ahmed sameh\\source\\repos\\reusableProject\\reusableProject\\Dtos\\ProductsDto.cs",
+              "ToolTip": "S:\\Coding\\Visual Studio Projects\\reusableAPI\\reusableProject\\Dtos\\ProductsDto.cs",
               "RelativeToolTip": "reusableProject\\Dtos\\ProductsDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -183,11 +158,48 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 0,
+              "Title": "UsersDto.cs",
+              "DocumentMoniker": "S:\\Coding\\Visual Studio Projects\\reusableAPI\\reusableProject\\Dtos\\UsersDto.cs",
+              "RelativeDocumentMoniker": "reusableProject\\Dtos\\UsersDto.cs",
+              "ToolTip": "S:\\Coding\\Visual Studio Projects\\reusableAPI\\reusableProject\\Dtos\\UsersDto.cs",
+              "RelativeToolTip": "reusableProject\\Dtos\\UsersDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T12:12:52.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "S:\\Coding\\Visual Studio Projects\\reusableAPI\\reusableProject\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "reusableProject\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "S:\\Coding\\Visual Studio Projects\\reusableAPI\\reusableProject\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "reusableProject\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T14:53:00.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "S:\\Coding\\Visual Studio Projects\\reusableAPI\\reusableProject\\Models\\User.cs",
+              "RelativeDocumentMoniker": "reusableProject\\Models\\User.cs",
+              "ToolTip": "S:\\Coding\\Visual Studio Projects\\reusableAPI\\reusableProject\\Models\\User.cs",
+              "RelativeToolTip": "reusableProject\\Models\\User.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T15:26:35.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\ahmed sameh\\source\\repos\\reusableProject\\reusableProject\\Models\\Product.cs",
+              "DocumentMoniker": "S:\\Coding\\Visual Studio Projects\\reusableAPI\\reusableProject\\Models\\Product.cs",
               "RelativeDocumentMoniker": "reusableProject\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\ahmed sameh\\source\\repos\\reusableProject\\reusableProject\\Models\\Product.cs",
+              "ToolTip": "S:\\Coding\\Visual Studio Projects\\reusableAPI\\reusableProject\\Models\\Product.cs",
               "RelativeToolTip": "reusableProject\\Models\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -195,50 +207,143 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\ahmed sameh\\source\\repos\\reusableProject\\reusableProject\\Controllers\\UserController.cs",
+              "DocumentMoniker": "S:\\Coding\\Visual Studio Projects\\reusableAPI\\reusableProject\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "reusableProject\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\ahmed sameh\\source\\repos\\reusableProject\\reusableProject\\Controllers\\UserController.cs",
+              "ToolTip": "S:\\Coding\\Visual Studio Projects\\reusableAPI\\reusableProject\\Controllers\\UserController.cs",
               "RelativeToolTip": "reusableProject\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAgwFoAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwDgAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T11:03:06.137Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T11:03:06.137Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PaymentController.cs",
-              "DocumentMoniker": "C:\\Users\\ahmed sameh\\source\\repos\\reusableProject\\reusableProject\\Controllers\\PaymentController.cs",
-              "RelativeDocumentMoniker": "reusableProject\\Controllers\\PaymentController.cs",
-              "ToolTip": "C:\\Users\\ahmed sameh\\source\\repos\\reusableProject\\reusableProject\\Controllers\\PaymentController.cs",
-              "RelativeToolTip": "reusableProject\\Controllers\\PaymentController.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAswF4AAAAzAAAAAAAAAA==",
+              "DocumentIndex": 23,
+              "Title": "20241211145422_test.cs",
+              "DocumentMoniker": "S:\\Coding\\Visual Studio Projects\\reusableAPI\\reusableProject\\Migrations\\20241211145422_test.cs",
+              "RelativeDocumentMoniker": "reusableProject\\Migrations\\20241211145422_test.cs",
+              "ToolTip": "S:\\Coding\\Visual Studio Projects\\reusableAPI\\reusableProject\\Migrations\\20241211145422_test.cs",
+              "RelativeToolTip": "reusableProject\\Migrations\\20241211145422_test.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T13:15:06.778Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T14:54:23.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "S:\\Coding\\Visual Studio Projects\\reusableAPI\\reusableProject\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "reusableProject\\Properties\\launchSettings.json",
+              "ToolTip": "S:\\Coding\\Visual Studio Projects\\reusableAPI\\reusableProject\\Properties\\launchSettings.json",
+              "RelativeToolTip": "reusableProject\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-11T14:55:27.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "S:\\Coding\\Visual Studio Projects\\reusableAPI\\reusableProject\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "reusableProject\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "S:\\Coding\\Visual Studio Projects\\reusableAPI\\reusableProject\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "reusableProject\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T10:54:38.418Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\ahmed sameh\\source\\repos\\reusableProject\\reusableProject\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "reusableProject\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\ahmed sameh\\source\\repos\\reusableProject\\reusableProject\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "reusableProject\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T11:02:56.314Z",
-              "EditorCaption": ""
+              "Title": "appsettings.json",
+              "DocumentMoniker": "S:\\Coding\\Visual Studio Projects\\reusableAPI\\reusableProject\\appsettings.json",
+              "RelativeDocumentMoniker": "reusableProject\\appsettings.json",
+              "ToolTip": "S:\\Coding\\Visual Studio Projects\\reusableAPI\\reusableProject\\appsettings.json",
+              "RelativeToolTip": "reusableProject\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAB+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-11T10:54:03.335Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 10,
+              "Title": "CartItemDto.cs",
+              "DocumentMoniker": "S:\\Coding\\Visual Studio Projects\\reusableAPI\\reusableProject\\Dtos\\CartItemDto.cs",
+              "RelativeDocumentMoniker": "reusableProject\\Dtos\\CartItemDto.cs",
+              "ToolTip": "S:\\Coding\\Visual Studio Projects\\reusableAPI\\reusableProject\\Dtos\\CartItemDto.cs",
+              "RelativeToolTip": "reusableProject\\Dtos\\CartItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T13:56:08.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "S:\\Coding\\Visual Studio Projects\\reusableAPI\\reusableProject\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "reusableProject\\Controllers\\OrderController.cs",
+              "ToolTip": "S:\\Coding\\Visual Studio Projects\\reusableAPI\\reusableProject\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "reusableProject\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAA3wDQAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T14:03:07.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "S:\\Coding\\Visual Studio Projects\\reusableAPI\\reusableProject\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "reusableProject\\Controllers\\PaymentController.cs",
+              "ToolTip": "S:\\Coding\\Visual Studio Projects\\reusableAPI\\reusableProject\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "reusableProject\\Controllers\\PaymentController.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAswF4AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T13:15:06.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "S:\\Coding\\Visual Studio Projects\\reusableAPI\\reusableProject\\Program.cs",
+              "RelativeDocumentMoniker": "reusableProject\\Program.cs",
+              "ToolTip": "S:\\Coding\\Visual Studio Projects\\reusableAPI\\reusableProject\\Program.cs",
+              "RelativeToolTip": "reusableProject\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwA4AAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T10:55:46.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "S:\\Coding\\Visual Studio Projects\\reusableAPI\\reusableProject\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "reusableProject\\Models\\Cart.cs",
+              "ToolTip": "S:\\Coding\\Visual Studio Projects\\reusableAPI\\reusableProject\\Models\\Cart.cs",
+              "RelativeToolTip": "reusableProject\\Models\\Cart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T14:06:57.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "S:\\Coding\\Visual Studio Projects\\reusableAPI\\reusableProject\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "reusableProject\\Controllers\\HomeController.cs",
+              "ToolTip": "S:\\Coding\\Visual Studio Projects\\reusableAPI\\reusableProject\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "reusableProject\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T11:02:56.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "CartItem.cs",
-              "DocumentMoniker": "C:\\Users\\ahmed sameh\\source\\repos\\reusableProject\\reusableProject\\Models\\CartItem.cs",
+              "DocumentMoniker": "S:\\Coding\\Visual Studio Projects\\reusableAPI\\reusableProject\\Models\\CartItem.cs",
               "RelativeDocumentMoniker": "reusableProject\\Models\\CartItem.cs",
-              "ToolTip": "C:\\Users\\ahmed sameh\\source\\repos\\reusableProject\\reusableProject\\Models\\CartItem.cs",
+              "ToolTip": "S:\\Coding\\Visual Studio Projects\\reusableAPI\\reusableProject\\Models\\CartItem.cs",
               "RelativeToolTip": "reusableProject\\Models\\CartItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -246,88 +351,47 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\ahmed sameh\\source\\repos\\reusableProject\\reusableProject\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "reusableProject\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\ahmed sameh\\source\\repos\\reusableProject\\reusableProject\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "reusableProject\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T10:54:38.418Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
               "Title": "OrderDto.cs",
-              "DocumentMoniker": "C:\\Users\\ahmed sameh\\source\\repos\\reusableProject\\reusableProject\\Dtos\\OrderDto.cs",
+              "DocumentMoniker": "S:\\Coding\\Visual Studio Projects\\reusableAPI\\reusableProject\\Dtos\\OrderDto.cs",
               "RelativeDocumentMoniker": "reusableProject\\Dtos\\OrderDto.cs",
-              "ToolTip": "C:\\Users\\ahmed sameh\\source\\repos\\reusableProject\\reusableProject\\Dtos\\OrderDto.cs",
+              "ToolTip": "S:\\Coding\\Visual Studio Projects\\reusableAPI\\reusableProject\\Dtos\\OrderDto.cs",
               "RelativeToolTip": "reusableProject\\Dtos\\OrderDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T12:49:44.207Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "PaymentDto.cs",
-              "DocumentMoniker": "C:\\Users\\ahmed sameh\\source\\repos\\reusableProject\\reusableProject\\Dtos\\PaymentDto.cs",
-              "RelativeDocumentMoniker": "reusableProject\\Dtos\\PaymentDto.cs",
-              "ToolTip": "C:\\Users\\ahmed sameh\\source\\repos\\reusableProject\\reusableProject\\Dtos\\PaymentDto.cs",
-              "RelativeToolTip": "reusableProject\\Dtos\\PaymentDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T13:13:58.307Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\ahmed sameh\\source\\repos\\reusableProject\\reusableProject\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "reusableProject\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\ahmed sameh\\source\\repos\\reusableProject\\reusableProject\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "reusableProject\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAQwCMAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T11:05:56.245Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T12:49:44.207Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ahmed sameh\\source\\repos\\reusableProject\\reusableProject\\Program.cs",
-              "RelativeDocumentMoniker": "reusableProject\\Program.cs",
-              "ToolTip": "C:\\Users\\ahmed sameh\\source\\repos\\reusableProject\\reusableProject\\Program.cs",
-              "RelativeToolTip": "reusableProject\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABTAAAAAAAAAA==",
+              "Title": "PaymentDto.cs",
+              "DocumentMoniker": "S:\\Coding\\Visual Studio Projects\\reusableAPI\\reusableProject\\Dtos\\PaymentDto.cs",
+              "RelativeDocumentMoniker": "reusableProject\\Dtos\\PaymentDto.cs",
+              "ToolTip": "S:\\Coding\\Visual Studio Projects\\reusableAPI\\reusableProject\\Dtos\\PaymentDto.cs",
+              "RelativeToolTip": "reusableProject\\Dtos\\PaymentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T10:55:46.946Z"
+              "WhenOpened": "2024-12-11T13:13:58.307Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "UsersDto.cs",
-              "DocumentMoniker": "C:\\Users\\ahmed sameh\\source\\repos\\reusableProject\\reusableProject\\Dtos\\UsersDto.cs",
-              "RelativeDocumentMoniker": "reusableProject\\Dtos\\UsersDto.cs",
-              "ToolTip": "C:\\Users\\ahmed sameh\\source\\repos\\reusableProject\\reusableProject\\Dtos\\UsersDto.cs",
-              "RelativeToolTip": "reusableProject\\Dtos\\UsersDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
+              "DocumentIndex": 17,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "S:\\Coding\\Visual Studio Projects\\reusableAPI\\reusableProject\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "reusableProject\\Controllers\\ProductController.cs",
+              "ToolTip": "S:\\Coding\\Visual Studio Projects\\reusableAPI\\reusableProject\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "reusableProject\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwCMAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T12:12:52.56Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T11:05:56.245Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "20241211110735_lol.cs",
-              "DocumentMoniker": "C:\\Users\\ahmed sameh\\source\\repos\\reusableProject\\reusableProject\\Migrations\\20241211110735_lol.cs",
+              "DocumentMoniker": "S:\\Coding\\Visual Studio Projects\\reusableAPI\\reusableProject\\Migrations\\20241211110735_lol.cs",
               "RelativeDocumentMoniker": "reusableProject\\Migrations\\20241211110735_lol.cs",
-              "ToolTip": "C:\\Users\\ahmed sameh\\source\\repos\\reusableProject\\reusableProject\\Migrations\\20241211110735_lol.cs",
+              "ToolTip": "S:\\Coding\\Visual Studio Projects\\reusableAPI\\reusableProject\\Migrations\\20241211110735_lol.cs",
               "RelativeToolTip": "reusableProject\\Migrations\\20241211110735_lol.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -335,27 +399,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "reusableProject.csproj",
-              "DocumentMoniker": "C:\\Users\\ahmed sameh\\source\\repos\\reusableProject\\reusableProject\\reusableProject.csproj",
+              "DocumentMoniker": "S:\\Coding\\Visual Studio Projects\\reusableAPI\\reusableProject\\reusableProject.csproj",
               "RelativeDocumentMoniker": "reusableProject\\reusableProject.csproj",
-              "ToolTip": "C:\\Users\\ahmed sameh\\source\\repos\\reusableProject\\reusableProject\\reusableProject.csproj",
+              "ToolTip": "S:\\Coding\\Visual Studio Projects\\reusableAPI\\reusableProject\\reusableProject.csproj",
               "RelativeToolTip": "reusableProject\\reusableProject.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-12-11T10:54:08.222Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\ahmed sameh\\source\\repos\\reusableProject\\reusableProject\\appsettings.json",
-              "RelativeDocumentMoniker": "reusableProject\\appsettings.json",
-              "ToolTip": "C:\\Users\\ahmed sameh\\source\\repos\\reusableProject\\reusableProject\\appsettings.json",
-              "RelativeToolTip": "reusableProject\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-11T10:54:03.335Z"
             }
           ]
         }

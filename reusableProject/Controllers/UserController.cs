@@ -52,6 +52,8 @@ namespace yarab.Controllers
                 UserId = userDto.UserId,
                 Name = userDto.Name,
                 Email = userDto.Email,
+                password = userDto.password,
+                Area = userDto.Area,
                 Address = userDto.Address,
                 MobileNumber = userDto.MobileNumber
             };
@@ -78,7 +80,9 @@ namespace yarab.Controllers
 
             user.Name = updatedUser.Name;
             user.Email = updatedUser.Email;
+            user.password = user.password;
             user.Address = updatedUser.Address;
+            user.Area = updatedUser.Area;
             user.MobileNumber = updatedUser.MobileNumber;
 
             _context.Users.Update(user);

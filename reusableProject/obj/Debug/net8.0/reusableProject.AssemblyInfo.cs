@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("reusableProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a80698559b8fbd9bd9211f0c06e87368a2b7c29d")]
 [assembly: System.Reflection.AssemblyProductAttribute("reusableProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("reusableProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

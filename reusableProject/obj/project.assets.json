@@ -5290,23 +5290,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ahmed sameh\\.nuget\\packages\\": {},
+    "C:\\Users\\ASUS\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ahmed sameh\\source\\repos\\reusableProject\\reusableProject\\reusableProject.csproj",
+      "projectUniqueName": "S:\\Coding\\Visual Studio Projects\\reusableAPI\\reusableProject\\reusableProject.csproj",
       "projectName": "reusableProject",
-      "projectPath": "C:\\Users\\ahmed sameh\\source\\repos\\reusableProject\\reusableProject\\reusableProject.csproj",
-      "packagesPath": "C:\\Users\\ahmed sameh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ahmed sameh\\source\\repos\\reusableProject\\reusableProject\\obj\\",
+      "projectPath": "S:\\Coding\\Visual Studio Projects\\reusableAPI\\reusableProject\\reusableProject.csproj",
+      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+      "outputPath": "S:\\Coding\\Visual Studio Projects\\reusableAPI\\reusableProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\ahmed sameh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
