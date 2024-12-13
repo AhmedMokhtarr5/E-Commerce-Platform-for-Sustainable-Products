@@ -68,6 +68,10 @@
               "target": "Package",
               "version": "[9.0.0, )"
             },
+            "SoapCore": {
+              "target": "Package",
+              "version": "[1.1.0.51, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"

@@ -21,11 +21,6 @@ namespace yarab.Controllers
         }
 
 
-
-
-
-
-
         [HttpGet("Getpayments")]
         public async Task<IActionResult> GetPayments()
         {

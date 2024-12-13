@@ -919,3 +919,8 @@ S:\Coding\Visual Studio Projects\reusableAPI\reusableProject\obj\Debug\net8.0\re
 S:\Coding\Visual Studio Projects\reusableAPI\reusableProject\obj\Debug\net8.0\reusableProject.pdb
 S:\Coding\Visual Studio Projects\reusableAPI\reusableProject\obj\Debug\net8.0\reusableProject.genruntimeconfig.cache
 S:\Coding\Visual Studio Projects\reusableAPI\reusableProject\obj\Debug\net8.0\ref\reusableProject.dll
+S:\Coding\Visual Studio Projects\reusableAPI\reusableProject\bin\Debug\net8.0\SoapCore.dll
+S:\Coding\Visual Studio Projects\reusableAPI\reusableProject\bin\Debug\net8.0\System.Private.ServiceModel.dll
+S:\Coding\Visual Studio Projects\reusableAPI\reusableProject\bin\Debug\net8.0\System.ServiceModel.Http.dll
+S:\Coding\Visual Studio Projects\reusableAPI\reusableProject\bin\Debug\net8.0\System.ServiceModel.Primitives.dll
+S:\Coding\Visual Studio Projects\reusableAPI\reusableProject\bin\Debug\net8.0\System.ServiceModel.dll
