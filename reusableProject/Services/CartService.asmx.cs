@@ -9,7 +9,7 @@ namespace reusableProject.Services
     public interface ICartService
     {
         [OperationContract]
-        Task<CartDto> CreateCart(CartDto cartDto);
+        Task<bool> CreateCart(CartDto cartDto);
 
         [OperationContract]
         Task<CartDto> GetCartByUserId(int userId);
@@ -34,10 +34,10 @@ namespace reusableProject.Services
             _context = context;
         }
 
-        public async Task<CartDto> CreateCart(CartDto cartDto)
+        public async Task<bool> CreateCart(CartDto cartDto)
         {
             if (cartDto.UserId <= 0)
-                return null;
+                return false;
 
             var cartEntity = new Cart
             {
@@ -47,7 +47,9 @@ namespace reusableProject.Services
             await _context.Carts.AddAsync(cartEntity);
             await _context.SaveChangesAsync();
 
-            return new CartDto { CartId = cartEntity.CartId, UserId = cartEntity.UserId };
+            return true;
+
+            //return new CartDto { CartId = cartEntity.CartId, UserId = cartEntity.UserId };
         }
 
         public async Task<CartDto> GetCartByUserId(int userId)

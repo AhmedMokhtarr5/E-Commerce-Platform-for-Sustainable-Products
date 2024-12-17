@@ -15,7 +15,7 @@ namespace reusableProject.Services
         Task<UsersDto> GetUserById(int id);
 
         [OperationContract]
-        Task<UsersDto> CreateUser(UsersDto userDto);
+        Task<int> CreateUser(UsersDto userDto);
 
         [OperationContract]
         Task<bool> UpdateUser(int id, UsersDto updatedUser);
@@ -67,7 +67,7 @@ namespace reusableProject.Services
                 .ToListAsync();
         }
 
-        public async Task<UsersDto> CreateUser(UsersDto userDto)
+        public async Task<int> CreateUser(UsersDto userDto)
         {
             var userEntity = new User
             {
@@ -80,10 +80,19 @@ namespace reusableProject.Services
                 MobileNumber = userDto.MobileNumber
             };
 
-            await _context.Users.AddAsync(userEntity);
-            await _context.SaveChangesAsync();
 
-            return userDto;
+            try
+            {
+                await _context.Users.AddAsync(userEntity);
+                await _context.SaveChangesAsync();
+            }
+            catch (Exception ex)
+            {
+                return -1;
+            }
+            
+
+            return userEntity.UserId;
         }
 
         public async Task<bool> UpdateUser(int id, UsersDto updatedUser)

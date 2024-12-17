@@ -15,7 +15,7 @@ namespace reusableProject.Services
         Task<List<ProductsDto>> GetProducts();
 
         [OperationContract]
-        Task<ProductsDto> CreateProduct(ProductsDto product);
+        Task<bool> CreateProduct(ProductsDto product);
 
         [OperationContract]
         Task<bool> UpdateProduct(int id, ProductsDto updatedProduct);
@@ -66,7 +66,7 @@ namespace reusableProject.Services
                 .ToListAsync();
         }
 
-        public async Task<ProductsDto> CreateProduct(ProductsDto productDto)
+        public async Task<bool> CreateProduct(ProductsDto productDto)
         {
             var productEntity = new Product
             {
@@ -78,10 +78,16 @@ namespace reusableProject.Services
                 StockQuantity = productDto.StockQuantity
             };
 
-            await _context.Products.AddAsync(productEntity);
-            await _context.SaveChangesAsync();
+           try
+            {
+                await _context.Products.AddAsync(productEntity);
+                await _context.SaveChangesAsync();
+            } catch (Exception ex)
+            {
+                return false;
+            }
 
-            return productDto;
+            return true;
         }
 
         public async Task<bool> UpdateProduct(int id, ProductsDto updatedProduct)

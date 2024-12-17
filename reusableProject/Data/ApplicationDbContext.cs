@@ -35,7 +35,11 @@ public class ApplicationDbContext : DbContext
             .HasOne(ci => ci.Product)
             .WithMany(p => p.CartItems)
             .HasForeignKey(ci => ci.ProductId);
-        
+
+        modelBuilder.Entity<User>()
+           .HasIndex(u => u.Email)
+           .IsUnique();
+
         modelBuilder.Entity<Payment>()
     .HasOne(p => p.User)
     .WithMany(u => u.Payments)

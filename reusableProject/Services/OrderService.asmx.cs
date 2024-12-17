@@ -15,7 +15,7 @@ namespace reusableProject.Services
         Task<List<OrderDto>> GetOrders();
 
         [OperationContract]
-        Task<OrderDto> CreateOrder(OrderDto orderDto);
+        Task<bool> CreateOrder(OrderDto orderDto);
 
         [OperationContract]
         Task<bool> UpdateOrder(int id, OrderDto updatedOrder);
@@ -59,7 +59,7 @@ namespace reusableProject.Services
               .ToListAsync();
         }
 
-        public async Task<OrderDto> CreateOrder(OrderDto orderDto)
+        public async Task<bool> CreateOrder(OrderDto orderDto)
         {
             var orderEntity = new Order
             {
@@ -69,20 +69,27 @@ namespace reusableProject.Services
                 OrderStatus = orderDto.OrderStatus
             };
 
+            try
+            {
+
             await _context.Orders.AddAsync(orderEntity);
             await _context.SaveChangesAsync();
+            } catch (Exception ex)
+            {
+                return false;
+            }
 
             // Create and return OrderDto from the saved entity
-            var createdOrderDto = new OrderDto
-            {
-                OrderId = orderEntity.OrderId,
-                UserId = orderEntity.UserId,
-                OrderDate = orderEntity.OrderDate,
-                TotalAmount = orderEntity.TotalAmount,
-                OrderStatus = orderEntity.OrderStatus
-            };
+            //var createdOrderDto = new OrderDto
+            //{
+            //    OrderId = orderEntity.OrderId,
+            //    UserId = orderEntity.UserId,
+            //    OrderDate = orderEntity.OrderDate,
+            //    TotalAmount = orderEntity.TotalAmount,
+            //    OrderStatus = orderEntity.OrderStatus
+            //};
 
-            return createdOrderDto;
+            return true;
         }
 
         public async Task<bool> UpdateOrder(int id, OrderDto updatedOrder)

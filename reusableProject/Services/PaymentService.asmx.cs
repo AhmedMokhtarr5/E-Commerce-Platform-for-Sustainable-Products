@@ -15,7 +15,7 @@ namespace reusableProject.Services
         Task<List<PaymentDto>> GetPayments();
 
         [OperationContract]
-        Task<PaymentDto> CreatePayment(PaymentDto paymentDto);
+        Task<bool> CreatePayment(PaymentDto paymentDto);
 
         [OperationContract]
         Task<bool> UpdatePayment(int id, PaymentDto updatedPayment);
@@ -63,7 +63,7 @@ namespace reusableProject.Services
                .ToListAsync();
         }
 
-        public async Task<PaymentDto> CreatePayment(PaymentDto paymentDto)
+        public async Task<bool> CreatePayment(PaymentDto paymentDto)
         {
             var paymentEntity = new Payment
             {
@@ -74,10 +74,16 @@ namespace reusableProject.Services
                 PaymentDate = paymentDto.PaymentDate
             };
 
-            await _context.Payments.AddAsync(paymentEntity);
-            await _context.SaveChangesAsync();
+           try
+            {
+                await _context.Payments.AddAsync(paymentEntity);
+                await _context.SaveChangesAsync();
+            } catch (Exception ex)
+            {
+                return false;
+            }
 
-            return paymentDto;
+            return true;
         }
 
         public async Task<bool> UpdatePayment(int id, PaymentDto updatedPayment)
