@@ -15,7 +15,7 @@ namespace reusableProject.Services
         Task<List<OrderDto>> GetOrders();
 
         [OperationContract]
-        Task<bool> CreateOrder(OrderDto orderDto);
+        Task<OrderDto> CreateOrder(OrderDto orderDto);
 
         [OperationContract]
         Task<bool> UpdateOrder(int id, OrderDto updatedOrder);
@@ -38,6 +38,7 @@ namespace reusableProject.Services
                  .Where(order => order.OrderId == id)
                  .Select(order => new OrderDto
                  {
+                     OrderId = order.OrderId,
                      UserId = order.UserId, 
                      OrderDate = order.OrderDate,
                      TotalAmount = order.TotalAmount,
@@ -59,7 +60,7 @@ namespace reusableProject.Services
               .ToListAsync();
         }
 
-        public async Task<bool> CreateOrder(OrderDto orderDto)
+        public async Task<OrderDto> CreateOrder(OrderDto orderDto)
         {
             var orderEntity = new Order
             {
@@ -68,28 +69,22 @@ namespace reusableProject.Services
                 TotalAmount = orderDto.TotalAmount,
                 OrderStatus = orderDto.OrderStatus
             };
-
-            try
-            {
-
+            
             await _context.Orders.AddAsync(orderEntity);
             await _context.SaveChangesAsync();
-            } catch (Exception ex)
+
+
+            //Create and return OrderDto from the saved entity
+            var createdOrderDto = new OrderDto
             {
-                return false;
-            }
+                OrderId = orderEntity.OrderId,
+                UserId = orderEntity.UserId,
+                OrderDate = orderEntity.OrderDate,
+                TotalAmount = orderEntity.TotalAmount,
+                OrderStatus = orderEntity.OrderStatus
+            };
 
-            // Create and return OrderDto from the saved entity
-            //var createdOrderDto = new OrderDto
-            //{
-            //    OrderId = orderEntity.OrderId,
-            //    UserId = orderEntity.UserId,
-            //    OrderDate = orderEntity.OrderDate,
-            //    TotalAmount = orderEntity.TotalAmount,
-            //    OrderStatus = orderEntity.OrderStatus
-            //};
-
-            return true;
+            return createdOrderDto;
         }
 
         public async Task<bool> UpdateOrder(int id, OrderDto updatedOrder)
